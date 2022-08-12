@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="design.css">
 </head>
 
 <body>
-  <script>
-let name = ("shir")
-let age = 21
-let phone_number = 052-8749897
-let hobbys = ["surf", "music", "friends"]
-let city = "bat yam"
 
-function printTwo () {
-console.log (name)
-console.log (age)
-}
+    <h2 class="homework">homework 02_08</h2>
 
-function printThree () {
-console.log (phone_number)
-console.log (hobbys)
-console.log (city)
-}
+    <!--create a new button-->
+    <script>
+        function sayHello() {
+            console.log("hello, you just click here!")
+        }
 
-printTwo()
-printTwo()
-printThree ()
-printThree ()
-printThree()
+        function goodJob() {
+            console.log("you are a star")
+        }
+    </script>
 
-  </script>  
+    <!--create button who called to my function in 2 diffrent events-->
+    <h3 class="explanation1">the first mission: button who calles to a function by 2 diffrentevents</h3>
+    <button class="button" onclick="sayHello()" , onmouseenter="sayHello()">click here</button> <br> <br> <br> <br>
+
+    <!-- create a method with a select option -->
+    <h3 class="explanation2">the second mission: method with a select option</h3>
+        <select class="select" onchange="goodJob()">
+            <option>you are awesome</option>
+            <option>you are on fire!!!</option>
+            <option>alon and niv i love you</option>
+        </select>
+
+
 </body>
+
 </html>
