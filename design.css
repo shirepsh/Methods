@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+.homework {
+    color: aqua;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.explanation1 {
+    color: white;
+}
+
+.explanation2 {
+ color: white;
+}
+
+.button {
+    color: aqua;
+    font-weight: bolder;
+    font-size: larger;
+   
+}
+
+.select {
+    color: aqua;
+    font-size: larger;
+    font-weight: bolder;
+}
